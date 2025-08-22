@@ -88,7 +88,7 @@ A escolha do algoritmo ideal depende dos requisitos da aplicação. Para gerar m
 
 Os gráficos abaixo consolidam a análise de desempenho do experimento de cálculo de π, mostrando a relação entre tempo de execução, erro e o *speedup* obtido com a otimização ILP.
 
-![Gráfico Comparativo de Desempenho](graficos_pi.png)
+![Gráfico Comparativo de Desempenho](graficos.png)
 **Figura 3:** Gráficos comparativos de Tempo de Execução, Convergência de Erro e Speedup.
 
 ## Conclusão Geral
