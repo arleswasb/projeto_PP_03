@@ -98,7 +98,7 @@ Os resultados visuais e os tempos de execução medidos mostram o mesmo padrão 
 **Baixo Custo / Baixa Precisão:** O algoritmo *Nearest Neighbor* é extremamente rápido, mas a qualidade visual é pobre.
 **Alto Custo / Alta Precisão:** O algoritmo *Lanczos* produz um resultado visualmente superior, mas exige um investimento computacional drasticamente maior.
 
-![Análise Detalhada: Qualidade vs. Custo Computacional](comparacao_redimensionamento.png)
+![Análise Detalhada: Qualidade vs. Custo Computacional](\imagens\graficos.png)
 **Figura 1:** Comparativo visual da qualidade de redimensionamento entre os algoritmos. As imagens na linha inferior mostram uma área de zoom para destacar as diferenças em nitidez e artefatos.
 
 ![Custo Computacional por Algoritmo de Redimensionamento](custo_redimensionamento.png)
