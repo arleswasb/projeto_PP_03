@@ -76,10 +76,10 @@ Os resultados visuais e os tempos de execução medidos mostram o mesmo padrão 
 **Baixo Custo / Baixa Precisão:** O algoritmo *Nearest Neighbor* é extremamente rápido, mas a qualidade visual é pobre.
 **Alto Custo / Alta Precisão:** O algoritmo *Lanczos* produz um resultado visualmente superior, mas exige um investimento computacional drasticamente maior.
 
-![Análise Detalhada: Qualidade vs. Custo Computacional](comparacao_redimensionamento.png)
+![Análise Detalhada: Qualidade vs. Custo Computacional](imagem_renderizada.png)
 **Figura 1:** Comparativo visual da qualidade de redimensionamento entre os algoritmos. As imagens na linha inferior mostram uma área de zoom para destacar as diferenças em nitidez e artefatos.
 
-![Custo Computacional por Algoritmo de Redimensionamento](custo_redimensionamento.png)
+![Custo Computacional por Algoritmo de Redimensionamento](tempo.png)
 **Figura 2:** Gráfico de barras comparando o tempo de processamento (em segundos) para cada algoritmo de redimensionamento.
 
 A escolha do algoritmo ideal depende dos requisitos da aplicação. Para gerar miniaturas (*thumbnails*) em tempo real, a velocidade do *Bilinear* pode ser aceitável. Para processar uma foto profissional para impressão, o custo do *Lanczos* é justificável].
@@ -90,19 +90,6 @@ Os gráficos abaixo consolidam a análise de desempenho do experimento de cálcu
 
 ![Gráfico Comparativo de Desempenho](graficos_pi.png)
 **Figura 3:** Gráficos comparativos de Tempo de Execução, Convergência de Erro e Speedup.
-
-### Análise e Resultados Visuais do Estudo de Caso
-
-Os resultados visuais e os tempos de execução medidos mostram o mesmo padrão do cálculo de π. A Figura 1 demonstra a diferença de qualidade visual entre os algoritmos, especialmente na área de zoom, enquanto a Figura 2 quantifica o custo computacional de cada um.
-
-**Baixo Custo / Baixa Precisão:** O algoritmo *Nearest Neighbor* é extremamente rápido, mas a qualidade visual é pobre.
-**Alto Custo / Alta Precisão:** O algoritmo *Lanczos* produz um resultado visualmente superior, mas exige um investimento computacional drasticamente maior.
-
-![Análise Detalhada: Qualidade vs. Custo Computacional](\imagens\graficos.png)
-**Figura 1:** Comparativo visual da qualidade de redimensionamento entre os algoritmos. As imagens na linha inferior mostram uma área de zoom para destacar as diferenças em nitidez e artefatos.
-
-![Custo Computacional por Algoritmo de Redimensionamento](custo_redimensionamento.png)
-**Figura 2:** Gráfico de barras comparando o tempo de processamento (em segundos) para cada algoritmo de redimensionamento.
 
 ## Conclusão Geral
 
